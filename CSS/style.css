@@ -106,3 +106,26 @@ button:focus{
 .footer .nav_ul li a{
     color: #e5e0e0;
 }
+.download-btn{
+    padding: 10px 20px;
+    background: linear-gradient(to right, #302C88, #1B2131);
+    transition: .2s ease all;
+    -webkit-transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    -ms-transition: .2s ease all;
+    -o-transition: .2s ease all;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 3px 9px 9px -7px black;
+    margin-bottom: 10px;
+}
+.download-btn a{
+    color: #eeebeb;
+    font-size: 20px;
+}
+.download-btn:hover{
+    background: linear-gradient(to left, #302C88, #1B2131);
+}
